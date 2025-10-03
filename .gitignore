@@ -65,3 +65,23 @@ coverage.xml
 # OS files
 .DS_Store
 Thumbs.db
+# Ignore PDF files
+*.pdf
+# Ignore documents
+*.pdf
+*.pptx
+*.txt
+*.docx
+
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+
+# Ignore VPN / config files
+*.ovpn
+
+# Ignore everything except src code
+!.gitignore
+!*.py
+!*.md
