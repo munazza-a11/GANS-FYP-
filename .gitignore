@@ -1,25 +1,67 @@
-# Ignore virtual environments
-fypenv/
-venv/
-.env/
-
-# Ignore Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
 
-# Ignore Jupyter checkpoints
-.ipynb_checkpoints/
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
 
-# Ignore data (large datasets)
-data/
-*.zip
-*.tar
-*.tar.gz
+# VS Code settings
+.vscode/
 
-# Ignore system files
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Matplotlib font cache
+.matplotlib
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# OS files
 .DS_Store
 Thumbs.db
-
-# Ignore PDFs/temporary docs if not needed
-*.pdf
