@@ -2,7 +2,7 @@ nvidia-smi
 import torch
 print("CUDA Available:", torch.cuda.is_available())
 
-!pip install ultralytics
+pip install ultralytics
 
 import torch
 import torchvision.models as models
